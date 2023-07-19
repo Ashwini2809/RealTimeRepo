@@ -1,0 +1,25 @@
+import java.util.*;
+  
+// Gfg Class
+public class Gfg 
+{
+    // Main CLass
+    public static void main(String args[])
+    {
+        // Declaring the username and password
+        String user_name = "Ashwini2809";
+        String password = "Purple@123";
+          
+        // Checking the validity of the input
+        if(user_name.equals("Geeks For Geeks") && password.equals("Geeks For Geeks"))
+        {
+            // Printing Output
+            System.out.println("Authentication Successful");
+        }
+        else
+        {
+            // Printing Output
+            System.out.println("User name/ Password not matching");
+        }
+    }
+}
